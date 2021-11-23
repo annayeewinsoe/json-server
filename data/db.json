@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "OG signs entirely new Dota 2 roster led by Misha and Taiga, features two 16-year-old standouts",
+      "body": "From the mightiest flower comes a new set of seeds ready to grow.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "Evil Geniuses signs JerAx, Nightfall to Dota 2 roster",
+      "body": "JerAx is back and jumping over to NA with Nightfall.",
+      "likes": 25
+    },
+    {
+      "id": 3,
+      "title": "Virtus Pro signs yamich from Winstrike Team, names gpk captain for 2022 DPC roster",
+      "body": "The team has finished its rebuild by signing another young player.",
+      "likes": 40
+    },
+    {
+      "id": 4,
+      "title": "SumaiL joins Team Secret",
+      "body": "Monarchy over democracy.",
+      "likes": 15
+    },
+    {
+      "title": "Team Spirit’s Yatoro joins the exclusive 12,000 MMR club",
+      "body": "Illya “Yatoro” Mulyarchuk, the carry player for Team Spirit, has added another accolade to his collection in 2021.\n\nHe is the latest member of Dota 2’s most exclusive group, the 12,000 MMR club.\n\nYatoro won The International 10 (TI10) with Team Spirit on October 17. They defeated PSG.LGD 3-2 in the grand final and took home USD$18,208,300 in winnings.",
+      "likes": 0,
+      "id": 5
+    }
+  ]
+}

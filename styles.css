@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --tone1: #de1794;
+  --tone2: #c71585;
+  --tone3: #b01376;
+  --tone4: #991066;
+  --tone5: #820e57;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--tone4);
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--tone5);
+}
+
+nav > .container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+input:focus, textarea:focus {
+  outline: 4px solid var(--tone1);
+}
+
+button, .post a {
+  background-color: var(--tone5);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover, .post a:hover {
+  background-color: var(--tone1);
+}
+
+.details button {
+  margin-right: 0;
+}
+
+.post {
+  background-color: rgba(255, 255, 255, .1);
+  padding: 5px 20px 20px 20px;
+  margin: 20px 0;
+}
+
+.post a {
+  margin: 0;
+  width: max-content;
+}
